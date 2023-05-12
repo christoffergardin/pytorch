@@ -3,7 +3,7 @@ import operator
 from typing import Any, Callable, Tuple
 
 import torch
-from torch.fx import GraphModule
+from torch.fx import GraphModule, Node
 from torch.fx.subgraph_rewriter import _replace_pattern
 import torch.nn.functional as F
 from torch.ao.quantization.fx._decomposed import quantized_decomposed_lib  # noqa: F401
