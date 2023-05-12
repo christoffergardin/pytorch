@@ -22,7 +22,6 @@ from torch.fx.experimental.symbolic_shapes import (
 from torch._dynamo.exc import UserError, UserErrorType
 from torch.fx._compatibility import compatibility
 from torch.fx.passes.pass_manager import PassManager
-from torch.fx.passes.infra.pass_base import PassResult
 from torch.utils._sympy.value_ranges import ValueRanges, ValueRangeError
 
 Value = Any
